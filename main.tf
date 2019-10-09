@@ -13,7 +13,7 @@ variable "environment_name" {
 
 resource "aws_s3_bucket" "b" {
   bucket = "terraformer-1234"
-  acl    = "public-read"
+  acl    = "private"
 
   tags = {
     Name = "Bucket for ${var.environment_name}"
