@@ -1,5 +1,5 @@
-bucket  = "armory-se-terraformer-demo"
+bucket  = "armory-terraformer-demo"
 key     = "demo-api-dev.tfstate"
-region  = "us-east-1"
+region  = "eu-east-1"
 encrypt = false
 profile = "terraform"
