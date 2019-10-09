@@ -12,7 +12,7 @@ variable "environment_name" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "terraformer-1234"
+  bucket = "terraformer-1234345677"
   acl    = "private"
 
   tags = {
