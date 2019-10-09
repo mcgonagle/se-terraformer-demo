@@ -3,16 +3,12 @@ provider "aws" {
   profile = "terraform"
 }
 
-variable "environment_name" {
-  default = "test"
-}
-
 resource "aws_s3_bucket" "b" {
   bucket = "terraformer-1234345677"
   acl    = "private"
 
   tags = {
-    Name = "Bucket for ${var.environment_name}"
+    Name = "Bucket for test"
   }
 }
 
